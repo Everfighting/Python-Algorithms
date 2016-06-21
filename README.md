@@ -1,2 +1,2 @@
 # Python-Algorithms
-Notes of  Course No.492 in www.shiyanlou.com
+http://www.runoob.com/python/python-100-examples.html
