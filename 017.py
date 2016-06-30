@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 import string
+
 s = raw_input('input a string:\n')
 letters = 0
 space = 0

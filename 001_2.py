@@ -5,4 +5,4 @@ for i in range(1, 5):
         for k in range(1, 5):
             if (i != k) and (i != j) and (j != k):
                 num = '%d%d%d' % (i, j, k)
-                print num
+                print int(num)

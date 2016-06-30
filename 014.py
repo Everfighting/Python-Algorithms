@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-
 from sys import stdout
+
 n = int(raw_input("input number:\n"))
 print "n = %d" % n
 
