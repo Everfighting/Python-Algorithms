@@ -1,8 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-a = int(raw_input("请输入一个数字:\n"))
-x = str(a)
+x = raw_input("请输入一个数字:\n")
 flag = True
 
 for i in range(len(x)/2):
@@ -10,6 +9,6 @@ for i in range(len(x)/2):
         flag = False
         break
 if flag:
-    print "%d 是一个回文数!" % a
+    print "%s 是一个回文数!" % x
 else:
-    print "%d 不是一个回文数!" % a
+    print "%s 不是一个回文数!" % x
