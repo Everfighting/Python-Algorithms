@@ -5,7 +5,7 @@ x = raw_input("请输入一个数字:\n")
 flag = True
 
 for i in range(len(x)/2):
-    if x[i] != x[-i - 1]:
+    if x[i] != x[len(x)-i - 1]:#注意表达式
         flag = False
         break
 if flag:
