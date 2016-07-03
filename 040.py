@@ -7,4 +7,5 @@ if __name__ == '__main__':
     print a
     for i in range(len(a) / 2):
         a[i],a[N - i - 1] = a[N - i - 1],a[i]
+        #关键对称位置互换！
     print a

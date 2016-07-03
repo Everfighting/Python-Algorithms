@@ -3,7 +3,7 @@
 
 if __name__ == '__main__':
     # 方法一
-    a = [1,4,6,9,13,16,19,28,40,100,0]
+    a = [1,4,6,9,13,16,19,28,40,100]
     print 'original list is:'
     for i in range(len(a)):
         print a[i]
@@ -16,10 +16,11 @@ if __name__ == '__main__':
             if a[i] > number:
                 temp1 = a[i]
                 a[i] = number
-                for j in range(i + 1,11):
+                for j in range(i + 1,10):
                     temp2 = a[j]
                     a[j] = temp1
                     temp1 = temp2
                 break
-    for i in range(11):
+    for i in range(10):
         print a[i]
+
