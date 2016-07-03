@@ -16,3 +16,4 @@ if __name__ == '__main__':
             print "%5d" % a[i]
             if (i - 2) % 10 == 0:
                 print
+
