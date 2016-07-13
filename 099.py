@@ -17,4 +17,8 @@ if __name__ == '__main__':
     s = ''
     s = s.join(l)
     fp.write(s)
+    fp = open('test3.txt','r')
+    c = fp.read()
+    print c
     fp.close()
+

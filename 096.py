@@ -6,3 +6,5 @@ if __name__ == '__main__':
     str2 = raw_input('input a sub string:\n')
     ncount = str1.count(str2)
     print ncount
+
+
