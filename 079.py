@@ -13,3 +13,16 @@ if __name__ == '__main__':
 
 	print 'after being sorted.'
 	print str1, str2, str3
+
+if __name__ == '__main__':
+	str4 = raw_input('input string:\n')
+	str5 = raw_input('input string:\n')
+	str6 = raw_input('input string:\n')
+	print str4, str5, str6
+
+	li = [str1, str2, str3]
+	li.sort()
+
+	print 'after being sorted.'
+	for key in li:
+		print key,
