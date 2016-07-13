@@ -9,3 +9,5 @@ if __name__ == '__main__':
     end = time.time()
 
     print end - start
+
+# 如函数time.time()用于获取当前时间戳

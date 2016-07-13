@@ -8,3 +8,5 @@ if __name__ == '__main__':
         print i
     end = time.clock()
     print 'different is %6.3f' % (end - start)
+
+# Python time clock() 函数以浮点数计算的秒数返回当前的CPU时间。
