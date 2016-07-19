@@ -12,7 +12,7 @@ if __name__ == '__main__':
 
 # 类的属性
 # 作为类的一个属性吧
-class Static:
+class Static(object):
     StaticVar = 5
     def varfunc(self):
         self.StaticVar += 1

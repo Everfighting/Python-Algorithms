@@ -1,7 +1,7 @@
 #!/usr/bin/python
-# -*- coding: UTF-8 -*-
+# -*- coding:utf-8 -*-
 
-class Num:
+class Num(object):
     nNum = 1
     def inc(self):
         self.nNum += 1
