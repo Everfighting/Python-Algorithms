@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-
+"""题目：输出斐波那契数列指定序号的值"""
 def fib(n):
     if n == 1:
         return [1]
