@@ -15,9 +15,9 @@ for m in range(101,201):
             break
     # 根据素数标记统计素数个数，并按照10个一组显示
     if leap == 1:
-        print '%-4d' % m
+        print('%-4d' % m)
         h += 1
         if h % 10 == 0:
-            print ''
+            print('')
     leap = 1
-print 'The total is %d' % h
+print('The total is %d' % h)
